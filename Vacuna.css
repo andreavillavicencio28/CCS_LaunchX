@@ -1,5 +1,136 @@
-.fondoposicion{
-    background-image: url("../CCS_LaunchX/assets/vacuna.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+html, body *{
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+
 }
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondoImagen{
+    background-image: url("../CCS_LaunchX/assets/vacuna.jpg");
+    width: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+    float: right;
+    background-size: cover;
+   
+}
+
+body{
+    background-color: rgb(254, 254, 254); 
+    }
+
+.izquierda{
+    color: rgb(3, 67, 187);
+    font-weight: 700;
+}
+
+p.izquierda{
+    text-align: left;
+}
+
+
+.derecha{
+    color: rgba(15, 26, 90, 0.788);
+    padding-left: 70px;
+
+}
+
+p.derecha{
+    text-align: right;
+    padding-left: 25px;
+}
+
+
+.derecha2{
+    color: darkgray;
+    padding-left: 70px;
+}
+
+p.derecha2{
+    text-align: right;
+}
+
+
+h1, h2, h3, p{
+    font-weight: bold;
+}
+
+/*  
+nav{ 
+    background: #E0F8F7;
+    height: 160px;
+   }
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    padding: 45px 45px;
+    text-align: bottom;
+    
+}
+*/
+nav{
+    background: #E0F8F7;
+    height: 120px;
+    padding: 40px 10px 15px 15px; 
+    
+}
+
+nav ol li {
+    float: left;
+    color: gray;
+    font-weight: bold;
+    margin: 25px 25px 25px 25px;
+    list-style: none;
+    padding: 10px 15px 25px 15px; 
+} 
+   
+
+
+.azul
+{
+    background-color: rgba(23, 52, 212, 0.788);
+    color: white;
+    padding: 30px 45px 30px 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray; 
+
+}
+
+.tamañolletra{
+    font-size: 60px;
+    font-weight:bolder;
+    padding: 70px 100px 15px 70px;
+}
+
+.tabla{
+    padding: 10px 10px 10px 10px;
+
+}
+
+.iconos1{
+    padding: 0px 0px 0px 80px;
+    float: left;
+}
+  
+div{
+    background-color: rgba(254, 254, 254, 0.7);
+    margin: 20px 35px 35px 35px;
+    border-radius: 10px;
+    
+}
+
+div ol li {
+float: left;
+color: gray;
+font-weight: bold;
+margin: 45px 25px 25px 25px;
+list-style: none;
+padding: 10px 15px 25px 15px;
+
+ }
+
